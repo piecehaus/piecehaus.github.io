@@ -44,7 +44,7 @@ body {
 	display: flex;
 	flex-wrap: wrap;                  /* 화면이 좁으면 다음 줄로 */
 	align-items: center;
-	gap: 0px 10px;
+	gap: 0px 8px;
 	padding: 10px 12px;
 }
 
@@ -106,7 +106,7 @@ a:hover {
 
 /* ===== 메뉴 색깔 ===== */
 .green  { color: black; background-color: lightgreen; }
-.red    { color: black; background-color: orangered; }
+.red    { color: black; background-color: tomato; }
 .blue   { color: black; background-color: skyblue; }
 .yellow { color: black; background-color: #EDFF4D; }
 .white  { color: black; background-color: pink; }
@@ -114,6 +114,7 @@ a:hover {
 .color1 { color: black; background-color: royalblue; }
 .color2 { color: black; background-color: powderblue; }
 .color3 { color: black; background-color: sandybrown; }
+.violet {color: black; background-color: palevioletred;}
 
 /* ===== 모바일 ===== */
 @media screen and (max-width: 700px) {
